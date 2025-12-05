@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  /* using rem not px while (1rem = 10px) */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+
+  /* Only Works if there is nothing
+   posiotned absloutly in relation to body */
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 3rem;
+  color: #1d2026;
+}
+.logo-img {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.navigation-container {
+  width: 100vw;
+}
+.nav-links {
+  background-color: #1d2026;
+  display: flex;
+  gap: 2.3rem;
+  font-size: 1.5rem;
+  padding: 1.6rem 3.2rem;
+  list-style: none;
+}
+.nav-link:link,
+.nav-link:visited {
+  color: #8c94a3;
+  text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:active {
+  transition: 0.3s all;
+  color: #fff;
+}
+.main-nav {
+  padding: 2rem 3rem;
+  display: flex;
+  /* gap: 4.5rem; */
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+.main-nav-left {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.input-search {
+  height: 3.2rem;
+  padding: 1.6rem;
+  border: 0;
+}
+/* 
+  #FF6636 
+  #FFEEE8
+*/
+.main-nav-right {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+.nav-icons {
+  display: flex;
+  gap: 2.4rem;
+  margin-left: 4.8rem;
+}
+.nav-logo {
+  cursor: pointer;
+}
+.btn {
+  text-decoration: none;
+  color: #1d2026;
+  font-size: 1.2rem;
+  padding: 1.2rem 2.4rem;
+}
+.btn-primary:link,
+.btn-primary:visited {
+  color: #ffeee8;
+  background-color: #ff6636;
+}
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #cc522b;
+  transition: 0.3s all;
+}
+.btn-secondary:link,
+.btn-secondary:visited {
+  background-color: #ffeee8;
+  color: #ff6636;
+}
+.btn-secondary:hover,
+.btn-secondary:active {
+  background-color: #ffddd1;
+  transition: 0.3s all;
+}
