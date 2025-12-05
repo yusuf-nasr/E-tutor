@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-tutor</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="logos/GraduationCap.svg" type="image/x-icon">
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
@@ -17,11 +18,11 @@
     <header class="navigation-container">
       <div class="top-nav">
         <ul class="nav-links">
-          <li class="nav-link active"><a href="#">Home</a></li>
-          <li class="nav-link"><a href="#">About Us</a></li>
-          <li class="nav-link"><a href="#">Courses</a></li>
-          <li class="nav-link"><a href="#">OurBlog</a></li>
-          <li class="nav-link"><a href="#">Contact Us</a></li>
+          <li><a class="nav-link active" href="#">Home</a></li>
+          <li><a class="nav-link" href="#">About Us</a></li>
+          <li><a class="nav-link" href="#">Courses</a></li>
+          <li><a class="nav-link" href="#">Blog</a></li>
+          <li><a class="nav-link" href="#">Contact Us</a></li>
         </ul>
       </div>
 
@@ -29,28 +30,24 @@
         <div class="main-nav-left">
           <div class="logo">
             <div class="logo-icon">
-              <i class="fa-solid fa-graduation-cap"></i>
+              <img class="logo-img" src="logos/GraduationCap.svg" alt>
             </div>
             <h1>E-tutor</h1>
           </div>
 
           <div class="search-container">
-            <div class="category-select">
-              <span>Category</span>
-              <i class="fa-solid fa-chevron-down"></i>
-            </div>
             <div class="search-bar">
-              <i class="fa-solid fa-magnifying-glass"></i>
-              <input type="text" placeholder="What do you want to learn..." />
+              <img src="logos/MagnifyingGlass.svg" alt>
+              <input class="input-search" type="text" placeholder="What do you want to learn..." />
             </div>
           </div>
         </div>
 
         <div class="main-nav-right">
           <div class="nav-icons">
-            <i class="fa-regular fa-bell"></i>
-            <i class="fa-regular fa-heart"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <img src="logos/Bell.svg" alt class="nav-logo">
+            <img src="logos/Heart.svg" alt class="nav-logo">
+            <img src="logos/ShoppingCartSimple.svg" alt class="nav-logo">
           </div>
           <div class="nav-buttons">
             <a href="SignUp.html" class="btn btn-secondary">Create account</a>
