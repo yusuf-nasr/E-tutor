@@ -14,10 +14,6 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
-
-  /* Only Works if there is nothing
-   posiotned absloutly in relation to body */
-  overflow-x: hidden;
 }
 h1 {
   font-size: 3rem;
@@ -117,4 +113,41 @@ h1 {
 .btn-secondary:active {
   background-color: #ffddd1;
   transition: 0.3s all;
+}
+.hero-section {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.hero-text {
+  width: 70%;
+  align-self: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.hero-heading {
+  color: #1d2026;
+  font-size: 7.2rem;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+  letter-spacing: 1px;
+}
+.hero-subheading {
+  font-size: 2.3rem;
+  color: #4e5566;
+  font-weight: 500;
+  line-height: 2.8rem;
+  margin-bottom: 3.2rem;
+}
+.hero-img {
+  margin: 0.5rem;
+  width: 100%;
+  height: 100%;
+}
+.cta-btn {
+  font-size: 1.4rem;
+  width: 25%;
+  text-align: center;
+  padding: 1.4rem 2.8rem;
 }
