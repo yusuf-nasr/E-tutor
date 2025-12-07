@@ -154,7 +154,96 @@ h1 {
   padding: 1.4rem 2.8rem;
 }
 /* Categories Section */
-
+.categories-section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.categories-heading {
+  margin: 0 auto;
+  padding: 6.4rem;
+  color: #1d2026;
+  font-size: 3.6rem;
+  font-weight: 800;
+}
+.categories-container {
+  display: grid;
+  grid-template-rows: 10.4rem 10.4rem 10.4rem 10.4rem;
+  grid-template-columns: 31.2rem 31.2rem 31.2rem 31.2rem;
+  column-gap: 1.2rem;
+  row-gap: 1rem;
+  margin: 0 auto;
+}
+.category {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 80%;
+  cursor: pointer;
+}
+.category-logo img {
+  height: 2.4rem;
+  width: 2.6rem;
+  background-color: #fff;
+  margin: 2rem;
+}
+.category-name {
+  font-size: 1.5rem;
+  color: #1d2026;
+  margin-bottom: 1.2rem;
+}
+.category-number {
+  font-size: 1.2rem;
+  color: #6e7485;
+}
+.label {
+  background-color: #ebebff;
+}
+.business {
+  background-color: #e1f7e3;
+}
+.finance {
+  background-color: #fff2e5;
+}
+.it {
+  background-color: #ffeee8;
+}
+.shadow {
+  box-shadow: 0 0.5rem 0.5rem #1d202627;
+}
+.pd img {
+  background-color: #ff6636;
+}
+.office {
+  background-color: #f5f7fa;
+}
+.photo {
+  background-color: #f5f7fad8;
+}
+.box {
+  background-color: #fff2e5;
+}
+.design {
+  background-color: #ffeee8;
+}
+.musice {
+  background-color: #fff2e5;
+}
+.health {
+  background-color: #e1f7e3;
+}
+.category-section-subtext {
+  margin: 0 auto;
+}
+.category-section-subtext p {
+  font-size: 1.4rem;
+  color: #6e7485;
+  margin-bottom: 3.2rem;
+}
+.category-section-subtext p a {
+  text-decoration: none;
+  color: #ff6636;
+}
 /* Footer */
 .footer-background {
   background: #1d2026;
