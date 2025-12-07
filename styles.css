@@ -19,6 +19,7 @@ h1 {
   font-size: 3rem;
   color: #1d2026;
 }
+/* Main nav */
 .logo-img {
   width: 3.2rem;
   height: 3.2rem;
@@ -114,6 +115,7 @@ h1 {
   background-color: #ffddd1;
   transition: 0.3s all;
 }
+/* Hero Section */
 .hero-section {
   width: 100vw;
   display: grid;
@@ -151,13 +153,14 @@ h1 {
   text-align: center;
   padding: 1.4rem 2.8rem;
 }
+/* Categories Section */
 
+/* Footer */
 .footer-background {
   background: #1d2026;
   padding: 8rem 0;
   color: #fff;
 }
-
 .footer-container {
   width: 90%;
   max-width: 130rem;
@@ -186,7 +189,6 @@ h1 {
   line-height: 1.6;
   max-width: 26rem;
 }
-/* ===== Social Icons ===== */
 .social-media {
   display: flex;
   align-items: center;
