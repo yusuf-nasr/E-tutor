@@ -299,6 +299,10 @@ h1 {
   align-items: center;
   gap: 1rem;
 }
+.top-course-students-number span {
+  font-size: 1.4rem;
+  color: #1d2026;
+}
 .top-course-students-number {
   font-size: 1.4rem;
   color: #b5b5b5;
