@@ -309,6 +309,68 @@ h1 {
 }
 .rating-number {
   color: #1d2026;
+  font-size: 1.6rem;
+}
+/* Instructors Section */
+.instructors-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6.4rem;
+}
+.instructors-container {
+  display: grid;
+  grid-template-columns: repeat(5, 24.4rem);
+  grid-template-rows: 1fr;
+  column-gap: 2.5rem;
+}
+.instructors-header {
+  font-size: 4rem;
+  color: #1d2026;
+  font-weight: 700;
+  margin: 4.2rem 0;
+}
+.instructor {
+  cursor: pointer;
+}
+.instructor img {
+  margin-bottom: 0.8rem;
+}
+.ins-info {
+  display: flex;
+  flex-direction: column;
+}
+.ins-name {
+  margin: 0.8rem 2.4rem;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #1d2026;
+  font-weight: 500;
+}
+.ins-tch {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #8c94a3;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+.ins-rating {
+  display: flex;
+  align-items: center;
+}
+.ins-rating img {
+  text-align: center;
+}
+.ins-students-number span {
+  color: #1d2026;
+  font-size: 1.4rem;
+}
+.ins-num {
+  color: #8c94a3;
   font-size: 1.4rem;
 }
 /* Footer */
