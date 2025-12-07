@@ -68,6 +68,8 @@ h1 {
   gap: 0.8rem;
 }
 .input-search {
+  border-radius: 1.2rem;
+  background-color: #f1eded;
   height: 3.2rem;
   padding: 1.6rem;
   border: 0;
@@ -86,10 +88,12 @@ h1 {
   cursor: pointer;
 }
 .btn {
+  border-radius: 1rem;
   text-decoration: none;
   color: #1d2026;
   font-size: 1.2rem;
   padding: 1.2rem 2.4rem;
+  margin-right: 0.3rem;
 }
 .btn-primary:link,
 .btn-primary:visited {
@@ -195,39 +199,50 @@ h1 {
 }
 .label {
   background-color: #ebebff;
+  box-shadow: 0 0.5rem 0.5rem #1d202627;
 }
 .business {
   background-color: #e1f7e3;
+  box-shadow: 0 0.5rem 0.5rem #1d202627;
 }
 .finance {
   background-color: #fff2e5;
+  box-shadow: 0 0.5rem 0.5rem #1d202627;
 }
 .it {
   background-color: #ffeee8;
+  box-shadow: 0 0.5rem 0.5rem #1d202627;
 }
 .shadow {
   box-shadow: 0 0.5rem 0.5rem #1d202627;
 }
 .pd img {
   background-color: #ff6636;
+  box-shadow: 0 0.5rem 0.5rem #1d202627;
 }
 .office {
   background-color: #f5f7fa;
+  box-shadow: 0 0.5rem 0.5rem #1d202627;
 }
 .photo {
   background-color: #f5f7fad8;
+  box-shadow: 0 0.5rem 0.5rem #1d202627;
 }
 .box {
   background-color: #fff2e5;
+  box-shadow: 0 0.5rem 0.5rem #1d202627;
 }
 .design {
   background-color: #ffeee8;
+  box-shadow: 0 0.5rem 0.5rem #1d202627;
 }
 .musice {
   background-color: #fff2e5;
+  box-shadow: 0 0.5rem 0.5rem #1d202627;
 }
 .health {
   background-color: #e1f7e3;
+  box-shadow: 0 0.5rem 0.5rem #1d202627;
 }
 .category-section-subtext {
   margin: 0 auto;
