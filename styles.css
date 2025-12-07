@@ -373,6 +373,33 @@ h1 {
   color: #8c94a3;
   font-size: 1.4rem;
 }
+/* Featured-In Section */
+.featured-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 4.8rem 9.6rem;
+  align-items: center;
+}
+.featured-text {
+  padding: 4.4rem;
+}
+.featured-header {
+  color: #1d2026;
+  font-weight: 600;
+  font-size: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+.featured-subheader {
+  width: 75%;
+  font-size: 1.6rem;
+  color: #8c94a3;
+  line-height: 2rem;
+}
+.featured-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
 /* Footer */
 .footer-background {
   background: #1d2026;
